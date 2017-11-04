@@ -1,0 +1,61 @@
+body {
+
+	margin: 0 0 0 0;
+	background:#eff0f4;
+
+}
+div.head {
+	background:#5fc0cd;
+	padding: 20px;
+	color: #fff;
+} 
+div.head_1 {
+
+}
+div.head_2 {
+
+}
+div.head_3 {
+
+}
+
+div.waist {
+	padding:10px 0 10px 0;
+}
+img {
+	transform: scale(0.5);
+}
+
+div.waist_a {
+	background:#fff;
+	margin-bottom: 10px;
+	padding: 5px;
+	overflow: hidden;
+	
+}
+div.waist_a_ip {
+	float: left;
+	padding: 0 18px 0 18px;
+	margin: 0 10 0 0px;
+	border-right: 2px solid #c3c3c3;
+}
+div.waist_b {
+	background:#fff;
+	padding: 5px;
+	overflow: hidden;
+	
+}
+div.waist_b_lo {
+	float: left;
+	padding: 0 18px 0 18px;
+	border-right: 2px solid #c3c3c3;
+}
+div.bottom {
+	background:#5fc0cd;
+	padding: 25px;
+	color: #fff;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
