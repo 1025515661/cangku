@@ -37,7 +37,6 @@ button {
     top: 50%;
    	right: 2.5%;
     transform: translateY(-50%);
- 
 }
 
 img {
@@ -61,7 +60,7 @@ input {
 	outline: none;
 	border: 0px;
 	height: 50px;
- 	width: 100%;
+ 	width: 600px;
  }
 div.waist_b {
 	margin-top: 10px;
