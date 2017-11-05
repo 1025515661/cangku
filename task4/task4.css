@@ -58,13 +58,10 @@ div.waist_a_ip {
 	border-right: 2px solid #F5F9F4
 }
 input {
-	display:flex;
 	outline: none;
 	border: 0px;
-	height: 100%;
+	height: 50px;
  	width: 100%;
-    flex:1;
-
  }
 div.waist_b {
 	margin-top: 10px;
