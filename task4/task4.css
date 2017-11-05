@@ -1,61 +1,105 @@
 body {
 
 	margin: 0 0 0 0;
+	padding: 0 0 0 0;
 	background:#eff0f4;
-
 }
 div.head {
+	position: relative;
 	background:#5fc0cd;
-	padding: 20px;
 	color: #fff;
-} 
-div.head_1 {
+	height: 50px;
+	width: 100%;
+	padding:0 0 0 0;
 
 }
-div.head_2 {
+button {
+	background: #5fc0cd;
+	border:0;
+	color: #fff;
+	outline:none;
+}
+.head_1 {
+	position: absolute;
+    top: 50%;
+    left: 2.5%;
+    transform: translateY(-50%);
+}
+.head_2 {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 
 }
-div.head_3 {
-
+.head_3 {
+	position: absolute;
+    top: 50%;
+   	right: 2.5%;
+    transform: translateY(-50%);
+ 
 }
 
-div.waist {
-	padding:10px 0 10px 0;
-}
 img {
-	transform: scale(0.5);
+	transform: scale(0.7)
 }
-
 div.waist_a {
 	background:#fff;
-	margin-bottom: 10px;
-	padding: 5px;
+	margin-top: 10px;
+	height: 50px;
+	width: 100%;
+	display:flex;	
 	overflow: hidden;
-	
 }
 div.waist_a_ip {
-	float: left;
-	padding: 0 18px 0 18px;
-	margin: 0 10 0 0px;
-	border-right: 2px solid #c3c3c3;
+	display:flex;
+	margin: 10px 15px 10px 15px;
+	width: 40px;
+	border-right: 2px solid #F5F9F4
 }
+input {
+	display:flex;
+	outline: none;
+	border: 0px;
+	height: 100%;
+ 	width: 100%;
+    flex:1;
+
+ }
 div.waist_b {
+	margin-top: 10px;
 	background:#fff;
-	padding: 5px;
+	top:120px;
+	height: 50px;
+	width: 100%;
+	display: flex;
 	overflow: hidden;
-	
 }
 div.waist_b_lo {
-	float: left;
-	padding: 0 18px 0 18px;
-	border-right: 2px solid #c3c3c3;
+	display:flex;
+	margin: 10px 15px 10px 15px;
+	width: 40px;
+	border-right: 2px solid #F5F9F4
 }
 div.bottom {
+	margin-top: 10px;
 	background:#5fc0cd;
-	padding: 25px;
-	color: #fff;
+	color:#fff;
+	top:180px;
+	height: 60px;
+	width: 100%;
 	display: flex;
   	justify-content: center;
   	align-items: center;
-}
+}	
+.denglu {
+	font-size: 15px;
+	letter-spacing:5px;
 
+}
+.wangjimima {
+ 	position: absolute;
+ 	top:250px;
+	right: 2.5%;
+	color:#5fc0cd;
+}
